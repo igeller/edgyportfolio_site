@@ -1,0 +1,26 @@
+.txt{
+  position: static;
+  background-color: green;
+  max-width: 40vmin;
+  height: auto;
+  overflow-y: scroll;
+  font-size: 40px;
+}
+
+
+.leftShape{
+  float: left;
+  width: 50%;
+  height: 100vh;
+  background-color: orange;
+  display: inline-block;
+}
+
+.rightShape{
+  background-color: yellow;
+  height: 100vh;
+  width: 50%;
+  float: right;
+  display: inline-block;
+}
+

@@ -1,0 +1,106 @@
+.leftI {
+  background-color: #f2f2f2;
+  color: #000;
+  font-family:  Impact, "Trebuchet MS", sans-serif;
+  display: inline-flex;
+  position: relative;
+  width: 25% !important;
+  height: 50vh !important;
+  text-align: center;
+}
+.rightI {
+  background-color: green;
+  color: #000;
+  font-family:  Impact, "Trebuchet MS", sans-serif;
+  display: inline-flex;
+
+  //float: left;
+  position: relative;
+  width: 25% !important;
+  height: 50vh !important;
+  text-align: center;
+}
+
+.topleftZ{
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color: hotpink;
+  width: 50%;
+  height: 50vh !important;
+  display: inline-flex;
+  //overflow-y: scroll;
+}
+.topleftZText{
+}
+
+.topRightZ{
+  position: relative;
+  left: 50%;
+  bottom: 50vh;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  background-color: aquamarine;
+  width: 50%;
+  height: 50vh !important;
+  display: inline-flex;
+  overflow-y: scroll;
+  display: none;
+  word-wrap: break-word;
+
+}
+
+
+
+//.shape {
+//  height: 100%;
+//  width: 100%;
+//}
+
+.flt{
+  display: inline-flex;
+}
+
+.shapeLeft {
+  float: left;
+  shape-outside: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/circle-left.svg);
+}
+
+.shapeRight {
+  float: right;
+  shape-outside: polygon(100% 0, 0% 100%, 100% 100%);
+  width: 100%;
+  height: 100%;
+  shape-margin: 2.6px;
+
+
+
+}
+
+//.holdDiv{
+//  height: 50vh;
+//  width: 50%;
+//  margin: 10px;
+//  //overflow-y: scroll;
+//}
+
+.test{
+  clip-path: polygon(0 0, 0 100%, 100% 0);
+  background-color: coral;
+  overflow-y: scroll;
+}
+
+.triangle {
+  width: 100px;
+  height: 200px;
+  //border-left: 50px solid transparent;
+  //border-right: 50px solid transparent;
+  //border-bottom: 100px solid red;
+  position: relative;
+}
+.triangle:after {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+
+.obj{
+  innerText: "hello"
+}
