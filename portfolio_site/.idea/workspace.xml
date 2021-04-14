@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23443a99-c808-4934-bf18-d13a054cc267" name="Default Changelist" comment="" />
+    <list default="true" id="23443a99-c808-4934-bf18-d13a054cc267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +19,15 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/components/LetterI/LetterI.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/components/LetterZ/LetterZ.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/components/LetterI/LetterI.module.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/components/LetterZ/LetterZ.module.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/components/LetterY/LetterY.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/components/LetterY/LetterY.module.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/styles/ShapesandText.module.scss" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qXsbaTljrryncaQUMDGshZztSl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,7 +74,7 @@
       <workItem from="1617673082207" duration="761000" />
       <workItem from="1618359012295" duration="128000" />
       <workItem from="1618359218814" duration="140000" />
-      <workItem from="1618359789272" duration="11568000" />
+      <workItem from="1618359789272" duration="12075000" />
     </task>
     <servers />
   </component>
