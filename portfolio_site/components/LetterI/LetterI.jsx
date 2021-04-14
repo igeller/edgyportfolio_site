@@ -7,13 +7,13 @@ function LetterI (props){
     return(
 
         <div style={{maxHeight: '100vh', minHeight: '50vh'}}>
-            <div className={`${styles.leftShape}`}>
-                <div className={`${styles.txt} mx-auto`} >
+            <div className={`${styles.leftShape} ${styles.shps}`}>
+                <div className={`${styles.txt} `} >
                     {props.leftText}
                 </div>
             </div>
-            <div className={`${styles.rightShape}`}>
-                <div className={`${styles.txt} mx-auto`} >
+            <div className={`${styles.rightShape} ${styles.shps}`}>
+                <div className={`${styles.txt} `} >
                     {props.rightText}
                 </div>
 

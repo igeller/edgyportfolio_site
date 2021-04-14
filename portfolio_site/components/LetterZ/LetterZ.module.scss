@@ -13,20 +13,11 @@
 }
 
 .rightShape{
-  background-color: brown;
-  height: 100%;
-  width: 100%;
+
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-  position: relative;
-  bottom: 100%;
-  right: 0px;
-  justify-content: flex-end;
 
 
-  .txt{
-    align-self: flex-end;
-    margin-right: $txtMargin;
-    margin-bottom: $txtMargin;
-  }
+
+
 }
 
