@@ -6,20 +6,20 @@ import PropTypes from 'prop-types';
 function LetterI (props){
     return(
 
-        <Box style={{maxHeight: '100vh', minHeight: '100vh'}} mx={'auto'}>
+        <div style={{maxHeight: '100vh', minHeight: '50vh'}}>
             <div className={`${styles.leftShape}`}>
-                <div className={`${styles.txt} m-5 mx-auto`} >
-                    `${props.leftText}`
+                <div className={`${styles.txt} mx-auto`} >
+                    {props.leftText}
                 </div>
             </div>
             <div className={`${styles.rightShape}`}>
-                <div className={`${styles.txt} m-5 mx-auto`} >
-                    `${props.rightText}`
+                <div className={`${styles.txt} mx-auto`} >
+                    {props.rightText}
                 </div>
 
             </div>
 
-        </Box>
+        </div>
     );
 }
 

@@ -1,59 +1,45 @@
-.txt{
-  background-color: green;
-  width: 45vmin;
-  height: 45vmin;
-  overflow-y: scroll;
-  font-size: 40px;
-}
+@import "../../styles/ShapesandText.module";
+
+
+//.txt{
+//  background-color: green;
+//  width: 45%;
+//  height: 45%;
+//  overflow-y: scroll;
+//  font-size: 40px;
+//  display: block;
+//}
 
 
 .middleShape{
+  justify-content: flex-start;
   clip-path: polygon(0 0, 50% 100%, 100% 0);
   width: 100%;
-  height: 50vh;
-  background-color: hotpink;
+  height: 50%;
+  background-color: aquamarine;
   position: relative;
-  top: -100vh;
-  //display: inline-flex;
-
+  top: -100%;
   .txt{
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    align-self: center;
+    margin: $txtMargin;
+    width: 20vmin;
+    height: 20vmin;
+
   }
 
 }
 
 .leftShape{
   clip-path: polygon(0 0, 0 100%, 50% 100%, 50% 50%);
-  width: 100%;
-  height: 100vh;
-  background-color: aquamarine;
-  position: relative;
-  top: 0px;
-  left: 0px;
-
+  justify-content: flex-end;
   .txt{
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    margin-top: 0px;
+    margin-bottom: $txtMargin;
   }
-
 }
 
 .rightShape{
-  background-color: brown;
-  height: 100vh;
-  width: 100%;
   clip-path: polygon(100% 100%, 100% 0%, 50% 50%, 50% 100%);
-  position: relative;
-  bottom: 150vh;
-  right: 0px;
-
-  .txt{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-  }
+  bottom: 150%;
 }
 

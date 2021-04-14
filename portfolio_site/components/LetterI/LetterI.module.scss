@@ -5,20 +5,22 @@
   height: auto;
   overflow-y: scroll;
   font-size: 40px;
+  margin: 2vh;
+
 }
 
 
 .leftShape{
   float: left;
   width: 50%;
-  height: 100vh;
+  height: 100%;
   background-color: orange;
   display: inline-block;
 }
 
 .rightShape{
   background-color: yellow;
-  height: 100vh;
+  height: 100%;
   width: 50%;
   float: right;
   display: inline-block;

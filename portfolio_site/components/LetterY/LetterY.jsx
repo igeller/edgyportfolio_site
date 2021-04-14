@@ -5,20 +5,20 @@ import PropTypes from 'prop-types';
 
 function LetterY (props){
     return(
-<Box style={{maxHeight: '100vh', minHeight: '100vh'}}>
+<div style={{maxHeight: '100vh', minHeight: '50vh'}}>
 
-    <div className={`${styles.leftShape}`}>
-        <div className={`${styles.txt} m-5`}>
+    <div className={`${styles.leftShape} ${styles.shps}`}>
+        <div className={`${styles.txt} `}>
             `${props.leftText}`
         </div>
     </div>
-    <div className={`${styles.middleShape}`}>
-        <div className={`${styles.txt} m-5`}>
+    <div className={`${styles.middleShape} ${styles.shps}`}>
+        <div className={`${styles.txt} `}>
             `${props.leftText}`
         </div>
     </div>
-    <div className={`${styles.rightShape}`}>
-        <div className={`${styles.txt} m-5`}>
+    <div className={`${styles.rightShape} ${styles.shps}`}>
+        <div className={`${styles.txt}`}>
             `${props.leftText}`
         </div>
     </div>
@@ -29,7 +29,7 @@ function LetterY (props){
     {/*    </div>*/}
 
     {/*</div>*/}
-</Box>
+</div>
 
 
     );

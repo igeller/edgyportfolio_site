@@ -5,19 +5,19 @@ import PropTypes from 'prop-types';
 
 function LetterZ (props){
     return(
-<Box style={{maxHeight: '100vh', minHeight: '100vh'}}>
-    <div className={`${styles.leftShape}`}>
-        <div className={`${styles.txt} m-5`}>
-            `${props.leftText}`
+<div style={{maxHeight: '100vh', minHeight: '50vh'}}>
+    <div className={`${styles.leftShape} ${styles.shps}`}>
+        <div className={`${styles.txt} ml-3`}>
+            ${props.leftText}
         </div>
     </div>
-    <div className={`${styles.rightShape}`}>
-        <div className={`${styles.txt} m-5`} >
-            `${props.rightText}`
+    <div className={`${styles.rightShape} ${styles.shps}`}>
+        <div className={` ${styles.txt} mr-3`} >
+            {props.rightText}
         </div>
 
     </div>
-</Box>
+</div>
 
 
     );

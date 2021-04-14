@@ -1,42 +1,32 @@
-.txt{
-  background-color: green;
-  width: 45vmin;
-  height: 45vmin;
-  overflow-y: scroll;
-  font-size: 40px;
-}
+@import "../../styles/ShapesandText.module";
+
+
+
+
+
 
 
 .leftShape{
   clip-path: polygon(0 0, 0% 100%, 100% 0);
-  width: 100%;
-  height: 100vh;
-  background-color: hotpink;
-  position: relative;
-  top: 0px;
-  left: 0px;
 
-  .txt{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  }
 
 }
 
 .rightShape{
   background-color: brown;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   position: relative;
-  bottom: 100vh;
+  bottom: 100%;
   right: 0px;
+  justify-content: flex-end;
+
 
   .txt{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
+    align-self: flex-end;
+    margin-right: $txtMargin;
+    margin-bottom: $txtMargin;
   }
 }
 

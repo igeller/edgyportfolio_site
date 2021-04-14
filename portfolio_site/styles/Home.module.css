@@ -12,14 +12,28 @@
   100% { transform: rotate(360deg); }
 }
 
+.bodyOvrflw{
+  overflow: scroll;
+  grid-column: auto/ span 28;
+  min-height: 0px;
+
+}
+
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 100vh !important;
+  display: grid !important;
+  /*grid-template-columns: repeat(2, minmax(min-content, 1fr) );*/
+
+  margin: 0 auto !important;
+  grid-auto-rows: 1fr;
+  alignment: center;
+/*grid-template-rows: 1fr 28fr 1fr;*/
+  max-height: 100vh !important;
+  /*min-height: 100vh !important;*/
+  /*flex-direction: row;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*max-width: 100vh !important;*/
 }
 
 

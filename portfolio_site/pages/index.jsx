@@ -13,11 +13,13 @@ import LetterY from "../components/LetterY/LetterY";
 export default function Home() {
   return (
 
-    <Container className={styles.container}>
-        <LetterI leftText={"asdkjhfiusfhiasudhfisadhfishdifhu"} rightText={"asdkjhfiusfhiasudhfisadhfishdifhu"}/>
-        <LetterZ/>
-        <LetterZ/>
-        <LetterY/>
+    <div className={styles.container}>
+            <LetterI leftText={"asdkjhfiusfhiasudhfisadhfishdifhu"} rightText={"asdkjhfiusfhiasudhfisadhfishdifhu"}/>
+            <LetterZ/>
+            <LetterZ/>
+            <LetterY/>
+
+
 
         {/*<LetterY></LetterY>*/}
       {/*<ImageHeader/>*/}
@@ -85,6 +87,6 @@ export default function Home() {
       {/*</main>*/}
 
 
-    </Container>
+    </div>
   );
 }
