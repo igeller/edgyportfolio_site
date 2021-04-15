@@ -1,4 +1,11 @@
 $txtMargin: 2vmin;
+$pink: #FC6595;
+$blue: #25B1BC;
+$green: #58EDCD;
+$yellow: #FFDD15;
+$purple: #371FAD;
+$red: #E52D35;
+$white: #FFFFFF;
 
 .txt{
   background-color: green;
@@ -22,7 +29,7 @@ $txtMargin: 2vmin;
 
 .leftShape{
   justify-content: flex-start;
-  background-color: hotpink;
+  //background-color: $pink;
   position: relative;
   top: 0px;
   left: 0px;
@@ -36,7 +43,7 @@ $txtMargin: 2vmin;
 }
 
 .rightShape{
-  background-color: brown;
+  //background-color: brown;
   height: 100%;
   width: 100%;
   position: relative;

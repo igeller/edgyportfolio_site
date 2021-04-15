@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="23443a99-c808-4934-bf18-d13a054cc267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LetterI/LetterI.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterI/LetterI.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LetterY/LetterY.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterY/LetterY.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LetterZ/LetterZ.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterZ/LetterZ.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LetterZ/LetterZ.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterZ/LetterZ.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/ShapesandText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ShapesandText.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +80,7 @@
       <workItem from="1617673082207" duration="761000" />
       <workItem from="1618359012295" duration="128000" />
       <workItem from="1618359218814" duration="140000" />
-      <workItem from="1618359789272" duration="12075000" />
+      <workItem from="1618359789272" duration="14628000" />
     </task>
     <servers />
   </component>

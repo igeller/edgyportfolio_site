@@ -8,16 +8,21 @@
 
 .leftShape{
   clip-path: polygon(0 0, 0% 100%, 100% 0);
-
-
 }
+.v1Left{
+  background-color: $blue;
+}
+.v2Left{
+  background-color: $purple;
+}
+
 
 .rightShape{
-
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-
-
-
-
 }
-
+.v1Right{
+  background-color: $yellow;
+}
+.v2Right{
+  background-color: $red;
+}

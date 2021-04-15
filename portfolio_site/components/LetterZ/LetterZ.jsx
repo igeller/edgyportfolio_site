@@ -4,15 +4,16 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 function LetterZ (props){
+
     return(
 <div style={{maxHeight: '100vh', minHeight: '50vh'}}>
-    <div className={`${styles.leftShape} ${styles.shps}`}>
-        <div className={`${styles.txt} ml-3`}>
+    <div className={`${styles.leftShape} ${styles.shps} ${props.version == 1 ? styles.v1Left: styles.v2Left}`}>
+        <div className={`${styles.txt}`}>
             ${props.leftText}
         </div>
     </div>
-    <div className={`${styles.rightShape} ${styles.shps}`}>
-        <div className={` ${styles.txt} mr-3`} >
+    <div className={`${styles.rightShape} ${styles.shps} ${props.version == 1 ? styles.v1Right: styles.v2Right}`}>
+        <div className={` ${styles.txt}`} >
             {props.rightText}
         </div>
 
@@ -25,7 +26,8 @@ function LetterZ (props){
 
 LetterZ.propTypes={
     leftText: PropTypes.string,
-    rightText: PropTypes.string
+    rightText: PropTypes.string,
+    version: PropTypes.number
 };
 
 export default LetterZ;

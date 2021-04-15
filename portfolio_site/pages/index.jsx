@@ -15,8 +15,8 @@ export default function Home() {
 
     <div className={styles.container}>
             <LetterI leftText={"asdkjhfiusfhiasudhfisadhfishdifhu"} rightText={"asdkjhfiusfhiasudhfisadhfishdifhu"}/>
-            <LetterZ/>
-            <LetterZ/>
+            <LetterZ leftText={'asdfs'} rightText={'asdf'} version={1}/>
+            <LetterZ leftText={'asdfs'} rightText={'asdf'} version={2}/>
             <LetterY/>
 
 
