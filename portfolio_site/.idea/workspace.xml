@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23443a99-c808-4934-bf18-d13a054cc267" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/ItemTitle/ItemTitle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ItemTitle/ItemTitle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MoreInfo/MoreInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MoreInfo/MoreInfo.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/functions.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LetterI/LetterI.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterI/LetterI.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/LetterI/LetterI.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterI/LetterI.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LetterY/LetterY.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterY/LetterY.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LetterY/LetterY.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterY/LetterY.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/LetterZ/LetterZ.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterZ/LetterZ.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LetterZ/LetterZ.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterZ/LetterZ.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/ShapesandText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ShapesandText.module.scss" afterDir="false" />
     </list>
@@ -80,7 +87,7 @@
       <workItem from="1617673082207" duration="761000" />
       <workItem from="1618359012295" duration="128000" />
       <workItem from="1618359218814" duration="140000" />
-      <workItem from="1618359789272" duration="14628000" />
+      <workItem from="1618359789272" duration="39374000" />
     </task>
     <servers />
   </component>

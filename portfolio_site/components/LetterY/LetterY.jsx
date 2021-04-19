@@ -8,17 +8,17 @@ function LetterY (props){
 <div style={{maxHeight: '100vh', minHeight: '50vh'}}>
 
     <div className={`${styles.leftShape} ${styles.shps}`}>
-        <div className={`${styles.txt} `}>
+        <div className={`${styles.txtHolder} `}>
             `${props.leftText}`
         </div>
     </div>
     <div className={`${styles.middleShape} ${styles.shps}`}>
-        <div className={`${styles.txt} `}>
+        <div className={`${styles.txtHolder} `}>
             `${props.leftText}`
         </div>
     </div>
     <div className={`${styles.rightShape} ${styles.shps}`}>
-        <div className={`${styles.txt}`}>
+        <div className={`${styles.txtHolder}`}>
             `${props.leftText}`
         </div>
     </div>

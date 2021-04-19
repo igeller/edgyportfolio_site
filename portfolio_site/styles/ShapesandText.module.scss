@@ -7,13 +7,17 @@ $purple: #371FAD;
 $red: #E52D35;
 $white: #FFFFFF;
 
-.txt{
+.txtHolder{
   background-color: green;
   width: 45%;
   height: 45%;
-  overflow-y: scroll;
+  overflow-y: scroll !important;
+  flex-wrap: wrap;
   font-size: 40px;
+  overflow-wrap: break-word;
   display: block;
+  align-self: center;
+
 }
 
 
