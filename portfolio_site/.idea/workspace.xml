@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23443a99-c808-4934-bf18-d13a054cc267" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/BottomRightTriangle/BottomRightTriangle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/BottomRightTriangle/BottomRightTriangle.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/InstanceModal/InstanceModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/InstanceModal/InstanceModal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Shape/Shape.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Shape/Shape.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TopRightTriangle/TopRightTriangle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TopRightTriangle/TopRightTriangle.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ItemTitle/ItemTitle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ItemTitle/ItemTitle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ItemTitle/ItemTitle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/ItemTitle/ItemTitle.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/LetterI/LetterI.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterI/LetterI.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LetterY/LetterY.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterY/LetterY.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MoreInfo/MoreInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MoreInfo/MoreInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/functions.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LetterZ/LetterZ.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterZ/LetterZ.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LetterZ/LetterZ.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/LetterZ/LetterZ.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/ShapesandText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ShapesandText.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +99,8 @@
       <workItem from="1618359012295" duration="128000" />
       <workItem from="1618359218814" duration="140000" />
       <workItem from="1618359789272" duration="64150000" />
-      <workItem from="1618883564276" duration="10310000" />
+      <workItem from="1618883564276" duration="15062000" />
+      <workItem from="1618948756478" duration="44877000" />
     </task>
     <servers />
   </component>

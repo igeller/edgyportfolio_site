@@ -20,21 +20,9 @@ function LetterI (props){
 
             </div>
             <div className={`${styles.rightShape} ${styles.shps}`}>
-                {/*<ItemTitle infoID={`${props.rightInfoID}`} title={`${props.rightText}`}/>*/}
-
-
+                <ItemTitle infoID={`${props.rightInfoID}`} title={`${props.rightText}`}/>
 
             </div>
-
-            {/*<Animated animationIn="bounceInLeft" isVisible={vis}>*/}
-
-
-            {/*<ItemTitle title={'sdfds'} infoID={`${props.leftInfoID}`}></ItemTitle>*/}
-
-            {/*</Animated>*/}
-
-            {/*<MoreInfo infoID={`${props.rightInfoID}`}></MoreInfo>*/}
-
 
         </div>
     );

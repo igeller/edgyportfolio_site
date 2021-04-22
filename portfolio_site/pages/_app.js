@@ -54,7 +54,12 @@ const store = useStore(pageProps.intialReduxState);
                 </Head>
                 <ThemeProvider theme={theme}>
                   {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+                  <header>
+                    <script src='https://d3plus.org/js/d3.min.js'></script>
+                    <script src='https://d3plus.org/js/d3plus.min.js'></script>
+                  </header>
                   <CssBaseline />
+
                   <Component {...pageProps} />
                 </ThemeProvider>
               </React.Fragment>

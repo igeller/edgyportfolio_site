@@ -10,12 +10,12 @@ function ItemTitle (props) {
     const [visible, setVis] = useState(false);
 
     //listen for key presses and only close if the div is open
-    window.onkeydown = (e) =>{
-        console.log(e)
-        if(e.code === "Escape" && visible) {
-            setVis(!visible)
-        }
-    }
+    // window.onkeydown = (e) =>{
+    //     console.log(e)
+    //     if(e.code === "Escape" && visible) {
+    //         setVis(!visible)
+    //     }
+    // }
 
 
         return (
@@ -26,7 +26,10 @@ function ItemTitle (props) {
                             }}
                             whileTap={{scale: 0.9}}
                             onClick={() => setVis(!visible)}
+
                 >
+
+
                     <div className={`${styles.txt}`}>
                         {props.title}
 

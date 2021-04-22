@@ -1,0 +1,63 @@
+@import "../../styles/ShapesandText.module";
+
+
+.ItemTitle_txtHolder *{
+  width: 10% !important;
+}
+
+
+
+
+.leftShape{
+  //clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+.v1Left{
+  background-color: transparent;
+}
+.v2Left{
+  background-color: transparent;
+}
+
+.shps{
+  bottom: 100%;
+}
+
+.txt{
+  max-width: fit-content;
+  min-width: 80%;
+
+}
+
+.infoDivBackground{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.showMod{
+  visibility: visible;
+}
+
+.infoDiv{
+  width: 75vw;
+  height: 75vh;
+  margin: auto;
+  background-color: white;
+  visibility: inherit;
+  display: inherit;
+  position: absolute;
+  z-index: 1000;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 20px;
+
+}
+
