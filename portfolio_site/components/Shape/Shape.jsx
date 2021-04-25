@@ -8,10 +8,16 @@ import { motion } from "framer-motion"
 import Fade from "react-reveal/Fade";
 
 
+
+
 function Shape(props){
     const [visible, setVis] = useState(false);
-
+    console.log(props.instanceInformation.details)
     //the shapes will fill 100% ofavailable container soo if the width and height of container changes so do the skinniness and fatness of the shapes
+    const dets = props.instanceInformation.details
+    const listItems = dets.map((item) =>
+        <li>{item}</li>
+    );
     let shapeType={
         path:{
             rectangle: `M0,0 L 100,0 100,100 0,100`,
@@ -55,10 +61,16 @@ function Shape(props){
 
     return(
         //creatting svg paths so that you are ready to implement the svg morph animations currently just going to place text and open. clip-path no good bc modal willnot open all the way.
-        <>
+        <div
+
+            style={visible ? {clipPath: `none`} :{clipPath: `${shapeType.polygon[props.shapeType]}`}}
+            // style={visible ? {clipPath: `none`} :{clipPath: `none`}}
+
+        >
+            //grid flipping cards
 
             <motion.div
-                whileHover={{ scale: 1.05, zIndex: 999}}
+                whileHover={{ scale: 1.1, zIndex: 999}}
                 whileTap={{scale: 0.9}}
                 onClick={() => setVis(!visible)}
 
@@ -67,7 +79,8 @@ function Shape(props){
                     ...props.shapePosition,
                     width: `${props.shapeContainerWidth}`,
                     height: `${props.shapeContainerHeight}`,
-                    clipPath: `${shapeType.polygon[props.shapeType]}`
+
+                    display: `block`
                 }}>
                 <svg
                     width="100%"
@@ -84,8 +97,24 @@ function Shape(props){
                     />
                 </svg>
 
-                <div
-                style={props.shapeTitlePosition}>hey i am text</div>
+                <div className={`w-auto m-3 `}
+                style={props.shapeTitlePosition}
+                >
+                    <ReactFitText minFontSize={8} compressor={1}>
+                        <h1> {props.instanceInformation.company}</h1>
+
+                    </ReactFitText>
+
+                    <ReactFitText minFontSize={'8px'} compressor={1.2}>
+                        <h4>{props.instanceInformation.title}</h4>
+
+                    </ReactFitText>
+                    <ReactFitText minFontSize={'8px'} compressor={1.2}>
+                        <p>{props.instanceInformation.oneLiner}</p>
+
+                    </ReactFitText>
+
+                </div>
 
                 {/*<InstanceModal*/}
                 {/*    instanceModalContent={props.instanceInformation}*/}
@@ -103,13 +132,24 @@ function Shape(props){
                 >
 
                     <div className={`${styles.infoDiv} p-5`}>
-                        <h1>{props.instanceInformation.title}</h1>
-                        <h4>{props.instanceInformation.oneLiner}</h4>
-                        <p>{props.instanceInformation.details}</p>
+                            <ReactFitText compressor={1.2}>
+                                <h1>{props.instanceInformation.title}</h1>
+                            </ReactFitText>
+                            <ReactFitText minFontSize={'20px'} compressor={1.2}>
+                                <h2>{props.instanceInformation.company}</h2>
+                            </ReactFitText>
+                        <ReactFitText compressor={2}>
+                            <h3>{props.instanceInformation.dates}</h3>
+                        </ReactFitText>
+
+                        <ul>
+                            {listItems}
+                        </ul>
+                           {/*<p>{props.instanceInformation.details}</p>*/}
                     </div>
                 </div>
             </Fade>
-</>
+</div>
 
     );
 };
@@ -119,7 +159,13 @@ Shape.propTypes={
     shapeContainerWidth: PropTypes.string,
     shapeContainerHeight: PropTypes.string,
 
-    instanceInformation: PropTypes.object.isRequired,
+    instanceInformation: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        company: PropTypes.string.isRequired,
+        dates: PropTypes.string.isRequired,
+        oneLiner: PropTypes.string.isRequired,
+        details: PropTypes.array.isRequired
+    }).isRequired,
     instanceModalID: PropTypes.string.isRequired,
     shapeBGColor: PropTypes.string.isRequired,
     shapeType: PropTypes.oneOf(['rectangle', 'topRightTriangle', 'bottomRightTriangle', 'leftParallelogram', 'rightParallelogram', 'upsideDownTriangle']).isRequired,
@@ -134,7 +180,7 @@ Shape.defaultProps = {
     instanceTitle: 'Name of Thing',
     instanceOneLiner: 'One line about the named thing',
     instanceDetails: 'any additional details about the named thing to be seen in modal',
-    shapeTitlePosition: {position: `absolute`, top: `50%`, left: `0px`, right: `0px`, margin: `auto 2vh`, textAlign: `center`}
+    shapeTitlePosition: {position: `absolute`, top: `10%`, left: `0px`, right: `0px`, margin: `auto 2vh`, textAlign: `center`, display: 'inline-grid'}
 };
 
 export default Shape;

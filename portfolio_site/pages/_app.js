@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
-import { ThemeProvider } from '@material-ui/core/styles';
+import '../styles/globals.css';
+// import { ThemeProvider } from '@material-ui/core/styles';
 import { Backdrop, CircularProgress } from '@material-ui/core';
-import CssBaseline from '@material-ui/core/CssBaseline';
+// import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../theme';
 import Router from "next/router";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -52,16 +53,16 @@ const store = useStore(pageProps.intialReduxState);
                   <title>My page</title>
                   <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
                 </Head>
-                <ThemeProvider theme={theme}>
+                {/*<ThemeProvider theme={theme}>*/}
                   {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
                   <header>
                     <script src='https://d3plus.org/js/d3.min.js'></script>
                     <script src='https://d3plus.org/js/d3plus.min.js'></script>
                   </header>
-                  <CssBaseline />
+                  {/*<CssBaseline />*/}
 
                   <Component {...pageProps} />
-                </ThemeProvider>
+                {/*</ThemeProvider>*/}
               </React.Fragment>
             </Provider>
       </>

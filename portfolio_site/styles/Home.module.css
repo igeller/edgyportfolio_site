@@ -32,6 +32,16 @@
   height: 1em;
 }
 
+.logoImg{
+
+  content: url('/assets/Asset2.svg');
+}
+.logoImg:hover{
+   content: url('/assets/colorLogo.svg');
+  /*transform: rotate(360deg);*/
+  /*animation-duration: 3s;*/
+ }
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

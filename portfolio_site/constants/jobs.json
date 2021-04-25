@@ -1,0 +1,37 @@
+{
+  "job0": {
+    "company": "American Express",
+    "title": "Software Engineer",
+    "oneLiner": "COMING SOON",
+    "dates": "August 2021 - present",
+    "details": [
+      "I will be starting full time with American Express in the fall!"
+    ]
+  },
+  "job1": {
+    "company": "GoDaddy",
+    "title": "Software Engineer Intern",
+    "oneLiner": "Front-end development solving customer issues involving page load times.",
+    "dates": "August 2021 - present",
+    "details": [
+      "Implemented test driven Development by reviewing and fixing non functional test cases",
+      "Enabled product launch in U.A.E. by adding support for right-to-left text",
+      "Improved “buy-flow” page-load with cross-team collaboration to enable prefetching of assets",
+      "Designed and hosted a tech talk on the value of prefetching assets and its implementation"
+    ]
+
+  },
+  "job2": {
+    "company": "American Express",
+    "title": "Software Engineer Intern",
+    "oneLiner": "Front-end development intern with focus on learning react and creating UI components",
+    "dates": "August 2021 - present",
+    "details": [
+      "Implemented test driven Development by reviewing and fixing non functional test cases",
+      "Enabled product launch in U.A.E. by adding support for right-to-left text",
+      "Improved “buy-flow” page-load with cross-team collaboration to enable prefetching of assets",
+      "Designed and hosted a tech talk on the value of prefetching assets and its implementation"
+    ]
+
+  }
+}
